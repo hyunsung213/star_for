@@ -1,5 +1,4 @@
-print("*****")
-print("**** ")
-print("***  ")
-print("**   ")
-print("*    ")
+N = 6
+
+for i in range(N):
+    print("*"*(N-i) + " "*(i))
